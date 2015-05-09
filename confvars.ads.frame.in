@@ -1,1 +1,227 @@
-# Place holder for ada package that ./configure will write at configure time.
+-- Configure time GNU tool variables
+-- This package was automagicly produced by configure for the words
+-- program.   Please don't try to edit it...  if at all practical change the
+-- configure.ac file that produced it instead.
+-- Produced Sat May 09 2015
+-- by the adaproject code for the words package.
+
+-- Note that this is created at configuration time so that if the user has
+-- added variable sitems to configure.ac they are reflected in the Ada
+-- confvars.
+
+package confvars is
+
+    -- We need to mark variables known but with no values set...
+    UNDEFINED_CONF_VAR: constant string := "??????????";
+    -- To insure that the variable is used, and not just the string value,
+    -- this value is likely to change each release.
+
+    -- Note: configure variable was actually am__EXEEXT_FALSE, but that would not have worked as an Ada identifier.
+    am_d_EXEEXT_FALSE: Constant String :="@am__EXEEXT_FALSE@";
+
+    -- Note: configure variable was actually am__EXEEXT_TRUE, but that would not have worked as an Ada identifier.
+    am_d_EXEEXT_TRUE: Constant String :="@am__EXEEXT_TRUE@";
+
+    LTLIBOBJS: Constant String :="@LTLIBOBJS@";
+
+    LIBOBJS: Constant String :="@LIBOBJS@";
+
+    MAKEDATERPM: Constant String :="@MAKEDATERPM@";
+
+    MAKEDATEISO: Constant String :="@MAKEDATEISO@";
+
+    CONFDATERPM: Constant String :="@CONFDATERPM@";
+
+    CONFDATEISO: Constant String :="@CONFDATEISO@";
+
+    DATE: Constant String :="@DATE@";
+
+    GNATLINK: Constant String :="@GNATLINK@";
+
+    GNATBIND: Constant String :="@GNATBIND@";
+
+    GNATMAKE: Constant String :="@GNATMAKE@";
+
+    SED: Constant String :="@SED@";
+
+    ADAFLAGS: Constant String :="@ADAFLAGS@";
+
+    ADA: Constant String :="@ADA@";
+
+    SUFFIXES: Constant String :="@SUFFIXES@";
+
+    -- Note: configure variable was actually am__fastdepCC_FALSE, but that would not have worked as an Ada identifier.
+    am_d_fastdepCC_FALSE: Constant String :="@am__fastdepCC_FALSE@";
+
+    -- Note: configure variable was actually am__fastdepCC_TRUE, but that would not have worked as an Ada identifier.
+    am_d_fastdepCC_TRUE: Constant String :="@am__fastdepCC_TRUE@";
+
+    CCDEPMODE: Constant String :="@CCDEPMODE@";
+
+    -- Note: configure variable was actually am__nodep, but that would not have worked as an Ada identifier.
+    am_d_nodep: Constant String :="@am__nodep@";
+
+    AMDEPBACKSLASH: Constant String :="@AMDEPBACKSLASH@";
+
+    AMDEP_FALSE: Constant String :="@AMDEP_FALSE@";
+
+    AMDEP_TRUE: Constant String :="@AMDEP_TRUE@";
+
+    -- Note: configure variable was actually am__quote, but that would not have worked as an Ada identifier.
+    am_d_quote: Constant String :="@am__quote@";
+
+    -- Note: configure variable was actually am__include, but that would not have worked as an Ada identifier.
+    am_d_include: Constant String :="@am__include@";
+
+    DEPDIR: Constant String :="@DEPDIR@";
+
+    OBJEXT: Constant String :="@OBJEXT@";
+
+    EXEEXT: Constant String :="@EXEEXT@";
+
+    ac_ct_CC: Constant String :="@ac_ct_CC@";
+
+    CPPFLAGS: Constant String :="@CPPFLAGS@";
+
+    LDFLAGS: Constant String :="@LDFLAGS@";
+
+    CFLAGS: Constant String :="@CFLAGS@";
+
+    CC: Constant String :="@CC@";
+
+    AM_BACKSLASH: Constant String :="@AM_BACKSLASH@";
+
+    AM_DEFAULT_VERBOSITY: Constant String :="@AM_DEFAULT_VERBOSITY@";
+
+    AM_DEFAULT_V: Constant String :="@AM_DEFAULT_V@";
+
+    AM_V: Constant String :="@AM_V@";
+
+    -- Note: configure variable was actually am__untar, but that would not have worked as an Ada identifier.
+    am_d_untar: Constant String :="@am__untar@";
+
+    -- Note: configure variable was actually am__tar, but that would not have worked as an Ada identifier.
+    am_d_tar: Constant String :="@am__tar@";
+
+    AMTAR: Constant String :="@AMTAR@";
+
+    -- Note: configure variable was actually am__leading_dot, but that would not have worked as an Ada identifier.
+    am_d_leading_dot: Constant String :="@am__leading_dot@";
+
+    SET_MAKE: Constant String :="@SET_MAKE@";
+
+    AWK: Constant String :="@AWK@";
+
+    mkdir_p: Constant String :="@mkdir_p@";
+
+    MKDIR_P: Constant String :="@MKDIR_P@";
+
+    INSTALL_STRIP_PROGRAM: Constant String :="@INSTALL_STRIP_PROGRAM@";
+
+    STRIP: Constant String :="@STRIP@";
+
+    install_sh: Constant String :="@install_sh@";
+
+    MAKEINFO: Constant String :="@MAKEINFO@";
+
+    AUTOHEADER: Constant String :="@AUTOHEADER@";
+
+    AUTOMAKE: Constant String :="@AUTOMAKE@";
+
+    AUTOCONF: Constant String :="@AUTOCONF@";
+
+    ACLOCAL: Constant String :="@ACLOCAL@";
+
+    VERSION: Constant String :="@VERSION@";
+
+    -- Note: configure variable was PACKAGE, but that is an ada keyword
+    PACKAGE_V: Constant String :="@PACKAGE@";
+
+    CYGPATH_W: Constant String :="@CYGPATH_W@";
+
+    -- Note: configure variable was actually am__isrc, but that would not have worked as an Ada identifier.
+    am_d_isrc: Constant String :="@am__isrc@";
+
+    INSTALL_DATA: Constant String :="@INSTALL_DATA@";
+
+    INSTALL_SCRIPT: Constant String :="@INSTALL_SCRIPT@";
+
+    INSTALL_PROGRAM: Constant String :="@INSTALL_PROGRAM@";
+
+    target_alias: Constant String :="@target_alias@";
+
+    host_alias: Constant String :="@host_alias@";
+
+    build_alias: Constant String :="@build_alias@";
+
+    LIBS: Constant String :="@LIBS@";
+
+    ECHO_T: Constant String :="@ECHO_T@";
+
+    ECHO_N: Constant String :="@ECHO_N@";
+
+    ECHO_C: Constant String :="@ECHO_C@";
+
+    DEFS: Constant String :="@DEFS@";
+
+    mandir: Constant String :="@mandir@";
+
+    localedir: Constant String :="@localedir@";
+
+    libdir: Constant String :="@libdir@";
+
+    psdir: Constant String :="@psdir@";
+
+    pdfdir: Constant String :="@pdfdir@";
+
+    dvidir: Constant String :="@dvidir@";
+
+    htmldir: Constant String :="@htmldir@";
+
+    infodir: Constant String :="@infodir@";
+
+    docdir: Constant String :="@docdir@";
+
+    oldincludedir: Constant String :="@oldincludedir@";
+
+    includedir: Constant String :="@includedir@";
+
+    localstatedir: Constant String :="@localstatedir@";
+
+    sharedstatedir: Constant String :="@sharedstatedir@";
+
+    sysconfdir: Constant String :="@sysconfdir@";
+
+    datadir: Constant String :="@datadir@";
+
+    datarootdir: Constant String :="@datarootdir@";
+
+    libexecdir: Constant String :="@libexecdir@";
+
+    sbindir: Constant String :="@sbindir@";
+
+    bindir: Constant String :="@bindir@";
+
+    program_transform_name: Constant String :="@program_transform_name@";
+
+    prefix: Constant String :="@prefix@";
+
+    exec_prefix: Constant String :="@exec_prefix@";
+
+    PACKAGE_URL: Constant String :="@PACKAGE_URL@";
+
+    PACKAGE_BUGREPORT: Constant String :="@PACKAGE_BUGREPORT@";
+
+    PACKAGE_STRING: Constant String :="@PACKAGE_STRING@";
+
+    PACKAGE_VERSION: Constant String :="@PACKAGE_VERSION@";
+
+    PACKAGE_TARNAME: Constant String :="@PACKAGE_TARNAME@";
+
+    PACKAGE_NAME: Constant String :="@PACKAGE_NAME@";
+
+    PATH_SEPARATOR: Constant String :="@PATH_SEPARATOR@";
+
+    SHELL: Constant String :="@SHELL@";
+
+end confvars;
