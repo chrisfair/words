@@ -4,11 +4,11 @@
 # Housekeeping.
 SHELL=@SHELL@
 
-bin_SCRIPTS = words
+bin_SCRIPTS = words makedict makestem makeefil makeinfl 
 # Yes, I know it isn't a script.  But it prevents automake
 # from making assumptions about how it should be built.
 
-EXTRA_DIST = whitakerswords.adb
+EXTRA_DIST = words.adb makedict.adb makestem.adb makeefil.adb makeinfl.adb  
 # And, unfortunately, it doesn't know to export the prerequisites.
 
 # There are two ways to procede here.  gnatmake does everything that make
@@ -39,15 +39,15 @@ EXTRA_DIST = whitakerswords.adb
 # So, on with the show.
 
 # The compile step.
-whitakerswords.ali: whitakerswords.adb confvars.ali
-	${ADA} ${ADAFLAGS} -c ${srcdir}/whitakerswords.adb
+words.ali: words.adb confvars.ali
+	${ADA} ${ADAFLAGS} -c ${srcdir}/words.adb
 
 # Note that this is effectively the "link" step.
-whitakerswords${EXEEXT}: whitakerswords.ali confvars.ali
-	-rm -f whitakerswords${EXEEXT}
-	${GNATBIND} -x whitakerswords.ali
-	${GNATLINK} whitakerswords.ali
-	@echo "whitakerswords built"
+words${EXEEXT}: words.ali confvars.ali
+	-rm -f words${EXEEXT}
+	${GNATBIND} -x words.ali
+	${GNATLINK} words.ali
+	@echo "words built"
 
 # ---------------------------------------------------------------------
 #  C programmers have always had the help in the GNU tools of access to
