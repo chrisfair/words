@@ -1,0 +1,32 @@
+This is whitaker's words and it is quite simply the best Latin 
+dictionary ever to be put in code form.  Since William Whitaker died a 
+few years ago I have become concerned that his code may vanish from the 
+earth so I have added it to this repostitory in hopes that it will be
+propagated into the future.  I am going to set it up into autoconf
+and autotools so that it might get absorbed into the various Linux 
+distros and hopefully even BSD Unix.  To my mind WindBlows is irrelavent
+as a platform but if anyone wants to fork this for WindBlows be my guest.
+
+
+The instructions for basic make follow (for LINUX)
+
+gnatmake words
+gnatmake makedict
+gnatmake makestem
+gnatmake makeefil
+gnatmake makeinfl
+
+Now type the following
+
+./makedict DICTLINE.GEN
+./makestem STEMLIST.GEN
+./makeefil EWDSLIST.GEN
+./makeinfl INLECTS.SEC
+
+
+Once that is complete typeing 
+./words will enter you into the program...for anyone who is into Latin
+magic follows for those of you who are not...well you won't care.
+
+
+
