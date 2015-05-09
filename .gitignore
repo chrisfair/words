@@ -1,0 +1,12 @@
+*.o
+*.ali
+*.GEN
+*.SEC
+makedict
+makeefil
+makeinfl
+makestem
+words
+
+
+
